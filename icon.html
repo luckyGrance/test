@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="common.css">
+	<title>icon</title>
+	<style>
+	@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+		body{position: relative;}
+		/*header{
+			width:100%;height:44px;background: #333;padding:0px 15px;display: flex;align-items:center;color:#fff;
+		}
+		header a,header h1{flex:1;}
+		header a{
+			color:#fff;font-size: 20px;	
+		}
+		header h1{
+			text-align: center;font-size: 25px
+		}
+		header>a:first-child{text-align: left}
+        header>a:last-child{text-align: right}*/
+
+		
+		header{display: flex;align-items:center;height: 44px;padding: 0px 15px;background:#333;color:#fff;}
+		header a,header h1{
+			flex:1;color:#fff;
+		}
+		h1{text-align: center;font-size: 25px;}
+		header>a:first-child{text-align: left}
+        header>a:last-child{text-align: right}
+
+		section{
+			text-align: center;margin-top: 40%;
+		}
+		section>i{
+			font-family: "iconfont";
+			font-size: 130px;
+		}
+		section>p{
+			margin-top: 15px;
+			font-family: 34px;
+			color:#000;
+		}
+
+		.red{color:red;}
+		.white{color:#fff;}
+		footer{
+			width:100%;background-color: #fff;position:fixed;bottom: 0px;padding:10px 0px;
+		}
+		footer>ul{
+			display:flex;text-align: center;
+		}
+		footer>ul>li{flex:1;}
+		footer ul li i,header a{
+			font-family: "iconfont";
+			font-size: 30px;
+		}
+		
+                    
+                    
+                    
+	</style>
+</head>
+<body>
+	<header>
+				<a>&#xe606;</a>
+				<h1 class="white">购 物 车</h1>
+				<a>&#xe605;</a>
+	</header>
+	<section>
+		<i>&#xe608;</i>
+		<p>购物车空空如也</p>
+	</section>
+	<footer>
+		<ul>
+			<li>
+				<i>&#xe601;</i>
+				<p>主页</p>
+			</li>
+			<li>
+				<i>&#xe604;</i>
+				<p>商场</p>
+			</li>
+			<li>
+				<i>&#xe603;</i>
+				<p>我的</p>
+			</li>
+			<li class="red">
+				<i>&#xe607;</i>
+				<p>购物车</p>
+			</li>
+		</ul>
+	</footer>
+</body>
